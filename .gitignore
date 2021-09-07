@@ -5,3 +5,6 @@ bookmarks.txt
 *.png
 .idea/workspace.xml
 .idea/workspace.xml
+
+dir_to_ignore/venv
+venv/Lib/site-packages/setuptools-40.8.0-py3.7.egg
