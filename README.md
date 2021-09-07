@@ -1,9 +1,9 @@
 # Twitter Bookmark Downloader
-Downloads images/photos from links given in a file.
+Downloads images from twitter links given in a file.
 
 ### Dependencies
 
-This tool uses the Python [tweepy](www.tweepy.org) library and [wget](https://www.gnu.org/software/wget/) package.
+This tool uses the Python [tweepy](www.tweepy.org) library, [wget](https://www.gnu.org/software/wget/) and [progressbar](https://pypi.org/project/progressbar2/)package.
 
 You can install requirements using `requirements.txt`.
 
