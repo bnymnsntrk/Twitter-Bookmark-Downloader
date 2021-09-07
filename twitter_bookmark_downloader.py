@@ -13,7 +13,6 @@ import wget
 
 
 def main():
-
     file1 = open("bookmarks.txt", "r")
     try:
         os.mkdir('bookmarks')
@@ -31,18 +30,18 @@ def getTweets(api, file1):
     while True:
         count += 1
         full_twt = file1.readline()
-        id = full_twt[full_twt.find("status") + 7:]
-        tweet = api.get_status(id)
-        media = tweet.entities.get('media', [])
+        id = full_twt[full_twt.find("status") + 7:]  # id of a tweet starts from "status/"
+        tweet = api.get_status(id)  # fetch the tweet
+        media = tweet.entities.get('media', [])  # get the media info
 
         if len(media) > 0:
-            wget.download((media[0]['media_url']))
+            wget.download((media[0]['media_url']))  # download the image if media exists
 
     file1.close()
     return all_tweets
 
 
-def authenticate():
+def authenticate():     # developer access
     auth = OAuthHandler(t.CONSUMER_KEY, t.CONSUMER_SECRET)
     auth.set_access_token(t.ACCESS_TOKEN, t.ACCESS_TOKEN_SECRET)
     api = API(auth)
