@@ -28,17 +28,17 @@ def getTweets(api, file1):
     count = 0
 
     while True:
-        count += 1
         full_twt = file1.readline()
         id = full_twt[full_twt.find("status") + 7:]  # id of a tweet starts from "status/"
         tweet = api.get_status(id)  # fetch the tweet
         media = tweet.entities.get('media', [])  # get the media info
 
         if len(media) > 0:
+            count += 1
             wget.download((media[0]['media_url']))  # download the image if media exists
+            print("downloaded ", count, " images")
 
     file1.close()
-    return all_tweets
 
 
 def authenticate():     # developer access
