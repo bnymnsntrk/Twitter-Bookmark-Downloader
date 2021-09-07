@@ -19,6 +19,9 @@ You will also need to create an app account on https://dev.twitter.com/apps to g
 Following these steps will create 4 tokens that you will need to authenticate your account.
 
 ### How to Use
+Install chrome extension from here https://chrome.google.com/webstore/detail/dewey/occohfgiljdagdmklhpplgmcnliljmgi and grab your bookmarks. (Go to https://twitter.com/i/bookmarks and click on the button above, if you don't see it restart your browser.)
+Now click on the dewey icon on top right of the browser and click your bookmarks. Don't click on "select all" yet, because it only applies it to a few pages. You need to slide until there is no more pages left (yeah this is a pain but believe me this is the best way). Then select all and export to clipboard. 
+Create a file in the same directory where python files located and name it "bookmarks.txt". Paste the links you got from dewey here.
 Edit the `API_Tokens.py` file and add all the 4 tokens you got in the previous step and save.
 Run the script by `python twitter_image_downloader.py`
 
