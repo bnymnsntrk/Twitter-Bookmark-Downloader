@@ -1,11 +1,8 @@
 
-*.jpg
 bookmarks.txt
-.idea/vcs.xml
+*.jpg
 *.png
-.idea/workspace.xml
-.idea/workspace.xml
+.idea/
+venv/
+__pycache__/
 
-dir_to_ignore/venv
-dir_to_ignore/__pycache__
-venv/Lib/site-packages/setuptools-40.8.0-py3.7.egg
