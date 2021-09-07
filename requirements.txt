@@ -1,4 +1,5 @@
 # Use the following command before running the tool to install all related dependencies
-# `pip install -r requirements.txt`
+# pip install -r requirements.txt
 tweepy
 wget
+progressbar2
