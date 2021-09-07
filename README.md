@@ -22,8 +22,10 @@ Following these steps will create 4 tokens that you will need to authenticate yo
 Install chrome extension from here https://chrome.google.com/webstore/detail/dewey/occohfgiljdagdmklhpplgmcnliljmgi and grab your bookmarks. (Go to https://twitter.com/i/bookmarks and click on the button above, if you don't see it restart your browser.) 
 ![Step 1](https://i.imgur.com/zamrINN.jpg)
 
-Now click on the dewey icon on top right of the browser and click your bookmarks. Don't click on "select all" yet, because it only applies it to a few pages. You need to slide until there is no more pages left (yeah this is a pain but believe me this is the best way). Then select all and export to clipboard. 
+Now click on the dewey icon on top right of the browser and click your bookmarks. Don't click on "select all" yet, because it only applies it to a few pages. You need to slide until there is no more pages left (yeah this is a pain but believe me this is the best way). Then select all and export to clipboard.
+
 ![Step 2](https://i.imgur.com/5NyNA9F.jpg)
+
 ![Step 3](https://i.imgur.com/7Ndcqge.jpg)
 
 Create a file in the same directory where python files located and name it "bookmarks.txt". Paste the links you got from dewey here.
