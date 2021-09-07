@@ -1,5 +1,5 @@
-# Twitter Image Downloader
-Downloads images/photos uploaded on twitter by a given user.
+# Twitter Bookmark Downloader
+Downloads images/photos from links given in a file.
 
 ### Dependencies
 
@@ -22,6 +22,5 @@ Following these steps will create 4 tokens that you will need to authenticate yo
 Edit the `API_Tokens.py` file and add all the 4 tokens you got in the previous step and save.
 Run the script by `python twitter_image_downloader.py`
 
-Enter the user's twitter handle `(@twitter_handle)` you want to download images from, followed by max. number of tweets you want to search for (0 for all/max. allowed twwets by Twitter's API).
-The images are downloaded inside a folder named `twitter_images`, in the folder named `user_handle`.
+If everything is ok, when you run the code it will save all the images in a folder called "bookmarks". 
 
