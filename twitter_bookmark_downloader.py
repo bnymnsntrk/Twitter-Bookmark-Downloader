@@ -1,13 +1,13 @@
 '''
-A script that downloads all the pictures posted by a given user.
+A script that downloads all the pictures from twitter links given in a file.
 
-Author: Krishanu Konar
-email: krishh_konar
+Original Author: Krishanu Konar
+Edited by: Bunyamin Senturk
 
 '''
 
 import API_Tokens as t
-from tweepy import OAuthHandler, API, Stream
+from tweepy import OAuthHandler, API
 import os
 import wget
 
@@ -40,12 +40,6 @@ def getTweets(api, file1):
 
     file1.close()
     return all_tweets
-
-
-def downloadFiles(media_url, username):
-
-    print('\nDownloading Images.....')
-    wget.download(media_url)
 
 
 def authenticate():
