@@ -31,7 +31,7 @@ Now click on the dewey icon on top right of the browser and click your bookmarks
 Create a file in the same directory where python files located and name it "bookmarks.txt". Paste the links you got from dewey here.
 
 Edit the `API_Tokens.py` file and add all the 4 tokens you got in the previous step and save.
-Run the script by `python twitter_image_downloader.py`
+Run the script by `python twitter_bookmark_downloader.py`
 
 If everything is ok, when you run the code it will save all the images in a folder called "bookmarks". 
 
